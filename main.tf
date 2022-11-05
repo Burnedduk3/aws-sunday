@@ -3,19 +3,19 @@ module "networking" {
   vpc_ip = "192.168.0.0/16"
   subnets = [
     {
-      subnet            = "192.168.0.0/24"
+      subnet            = "192.169.0.0/24"
       availability_zone = "us-east-1a"
     },
     {
-      subnet            = "192.168.1.0/24"
+      subnet            = "192.169.1.0/24"
       availability_zone = "us-east-1b"
     },
     {
-      subnet            = "192.168.2.0/24"
+      subnet            = "192.169.2.0/24"
       availability_zone = "us-east-1a"
     },
     {
-      subnet            = "192.168.3.0/24"
+      subnet            = "192.169.3.0/24"
       availability_zone = "us-east-1b"
     }
   ]
